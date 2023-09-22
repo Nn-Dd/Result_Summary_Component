@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This sets the body to take up the full viewport height */
+  flex-direction: column;
+}
+.card {
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 7px 4px 10px 1px rgba(120, 87, 255, 0.6);
+  box-shadow: 7px 4px 10px 1px rgba(120, 87, 255, 0.6);
+  display: flex;
+  height: 35vh;
+  border-top: 0;
+  border-bottom: 0;
+}
+.circleBase {
+  background: hsla(256, 72%, 46%, 1);
+  background: -moz-linear-gradient(
+    top,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  background: #7857ff;
+  background: -moz-linear-gradient(
+    top,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  padding-top: 0.5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.number {
+  font-size: 50px;
+  font-weight: 800;
+}
+.of100 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #c8c1ff;
+}
+.heading-left {
+  color: #c8c1ff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.great{
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+}
+.paragraph-left{
+    font-weight: 500;
+  font-size: 18px;
+  color: #c8c1ff;
+}
+.right {
+  padding-left: 2%;
+}
