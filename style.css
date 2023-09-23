@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,15 +169,29 @@ body {
   color: hsl(234, 85%, 45%);
 }
 
-.button {
+.button-continue {
   color: #fff;
-  background-color: #303b59;
-  border-radius: 16px;
+  background-image: linear-gradient(to right, #303b59, #485563, #2E2BE9, #2e2be9);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
   border: none;
   cursor: pointer;
-  padding: 10px 20px; /* Adjust padding to change button size */
-  font-size: 16px; /* Adjust font size */
+  padding: 10px 20px;
+  font-size: 16px;
   margin-bottom: 2%;
+  text-align: center;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.button-continue:hover, .button-continue:active {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 @media screen and (max-width: 425px) {
@@ -236,7 +250,7 @@ body {
     height: 60px;
     align-items: center;
   }
-  .button{
+  .button {
     width: 80%;
     margin-top: 10px;
     margin-left: 40px;
