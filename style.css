@@ -10,6 +10,7 @@ body {
   height: 100vh; /* This sets the body to take up the full viewport height */
   flex-direction: column;
 }
+
 .card {
   border-radius: 16px;
   border: 1px solid #ffffff;
@@ -19,7 +20,9 @@ body {
   height: 35vh;
   border-top: 0;
   border-bottom: 0;
+  margin-bottom: 10px;
 }
+
 .circleBase {
   background: hsla(256, 72%, 46%, 1);
   background: -moz-linear-gradient(
@@ -69,36 +72,110 @@ body {
   align-items: center;
   padding: 1%;
   padding-top: 0.5%;
-  padding-right: 2%;
-  padding-left: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
   color: #ffffff;
   align-items: center;
   justify-content: space-evenly;
+  width: 50%;
 }
+
 .number {
   font-size: 50px;
   font-weight: 800;
 }
+
 .of100 {
   font-weight: 500;
   font-size: 18px;
   color: #c8c1ff;
 }
+
 .heading-left {
   color: #c8c1ff;
   font-size: 20px;
   font-weight: 500;
 }
-.great{
-    font-weight: 800;
-    font-size: 30px;
-    color: #ffffff;
+
+.great {
+  font-weight: 800;
+  font-size: 30px;
+  color: #ffffff;
 }
-.paragraph-left{
-    font-weight: 500;
+
+.paragraph-left {
+  font-weight: 500;
   font-size: 18px;
   color: #c8c1ff;
+  margin: 20px;
 }
+
 .right {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  color: #000;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 50%;
   padding-left: 2%;
+  padding-right: 2%;
+}
+
+.heading-right {
+  color: #2c3448;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 1%;
+}
+
+.qualities {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.box-left {
+  gap: 5%;
+  display: flex;
+  align-items: center;
+}
+.reaction {
+  background-color: #fff6f5;
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: #fffbf2;
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: #f2fbfa;
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: #f3f3fd;
+  color: hsl(234, 85%, 45%);
+}
+
+.button {
+  color: #fff;
+  background-color: #303b59;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px; /* Adjust padding to change button size */
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 2%;
 }
